@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { TouchableOpacity, TextInput, Text, View } from 'react-native';
 import { FontAwesome } from '@expo/vector-icons'; 
 import RegistrationSVG from '../assets/images/Registration.svg'; 
-
+import { Link } from 'expo-router';
 export default function RegisterPage() {
   const [passwordVisible, setPasswordVisible] = useState(true);
   const [email, setEmail] = useState('');
@@ -15,7 +15,7 @@ export default function RegisterPage() {
   return (
     <View className="flex flex-col bg-white  items-left justify-center w-full h-full">
       <View className="flex flex-col justify-center items-center w-full h-full p-4">
-      <Text className="text-[#49225B] text-4xl font-bold mb-4">Register</Text>
+      <Text  className="text-[#49225B] text-4xl font-bold mb-4">Register</Text>
       <RegistrationSVG width={400} height={400} className="border-none" />
       
       <View className="flex flex-col justify-between w-80 h-auto p-8 rounded-lg ">
