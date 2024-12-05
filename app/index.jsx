@@ -4,7 +4,7 @@ import { Text, View , SafeAreaView} from 'react-native';
 import { NativeWindStyleSheet } from "nativewind";
 import LoginPage from './LoginPage';
 import Footer from './Footer';
-
+import Home from './Home';
 import Header from './Header';
 import RegisterPage from './RegisterPage';
 import VerificationPage from './VerificationPage';
@@ -21,9 +21,11 @@ export default function App() {
     <SafeAreaView className="flex-1 bg-violet-100">
       <Header/>
       <View className="flex-1">
-        <LoginPage/>
+        <Profile/>
       </View>
       <Footer/>
     </SafeAreaView>
   );
 }
+
+

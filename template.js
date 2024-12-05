@@ -29,5 +29,3 @@ async function main() {
 }
 
 main().catch(console.error);
-
-// Add functions that make DB calls here

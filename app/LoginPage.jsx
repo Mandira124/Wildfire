@@ -52,7 +52,6 @@ export default function LoginPage() {
 
         <TouchableOpacity className=" bg-[#49225B] p-2 flex flex-row justify-center items-center rounded-full w-full mt-1">
           <Text className="text-white text-xl pr-4 font-semibold ">Login</Text>
-          
           <FontAwesome name="arrow-right" size={20} color="white" />
         </TouchableOpacity>
 

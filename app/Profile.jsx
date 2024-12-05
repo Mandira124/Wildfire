@@ -7,8 +7,7 @@ const Profile = () => {
     batch: 'Batch 2024',
     department: 'Computer Engineering',
     joinDate: 'January 15, 2022',
-    profilePic: 'https://via.placeholder.com/150', 
-    role: 'social worker', 
+    profilePic: 'https://via.placeholder.com/150', // Replace with actual URL if available
   };
 
   return (
@@ -22,10 +21,6 @@ const Profile = () => {
         <Text className="text-3xl font-bold text-gray-800">{user.username}</Text>
         <Text className="text-xl text-gray-500">{user.department}</Text>
         <Text className="text-md text-gray-400">{user.batch}</Text>
-        {/* Display Role */}
-        <Text className="text-md font-semibold text-gray-600 mt-2">
-          {user.role === 'social worker' ? 'Social Worker' : 'Institution'}
-        </Text>
       </View>
 
       {/* User Information */}
